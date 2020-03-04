@@ -1,0 +1,13 @@
+<html>
+
+    <head>
+        <h1>{{HOLA}}</h1>
+    </head>
+
+    <body>
+        <h2>{{Hello}}</h2>
+        <h3>{{Buen dia}}</h3>
+        <h4>{{Adios}}</h4>
+    </body>
+
+</html>

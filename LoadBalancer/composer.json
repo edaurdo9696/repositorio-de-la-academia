@@ -1,0 +1,23 @@
+{
+    "name": "eduardo/load-balancer",
+    "authors": [
+        {
+            "name": "edu",
+            "email": "eduardokloster96@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.5",
+        "slim/slim": "^4.4",
+        "slim/psr7": "^1.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "LB\\":"src/",
+            "Tests\\":"Test/"
+        }
+    }
+    
+
+
+}

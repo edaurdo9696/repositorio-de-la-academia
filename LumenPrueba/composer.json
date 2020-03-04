@@ -1,0 +1,6 @@
+{
+    "name": "eduardo/lumen-prueba",
+    "require": {
+        "laravel/lumen": "^6.3"
+    }
+}

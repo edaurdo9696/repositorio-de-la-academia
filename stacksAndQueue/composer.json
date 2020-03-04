@@ -1,0 +1,6 @@
+{
+    "name": "eduardo/stacks-and-queue",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}

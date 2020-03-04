@@ -1,0 +1,6 @@
+{
+    "name": "eduardo/mi-framework",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}

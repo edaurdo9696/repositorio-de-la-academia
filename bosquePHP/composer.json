@@ -1,0 +1,6 @@
+{
+    "name": "academia/bosque",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}

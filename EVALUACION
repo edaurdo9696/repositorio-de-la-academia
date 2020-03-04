@@ -1,0 +1,61 @@
+<?php
+/** Vamos a programar una Guerra naval.
+La guerra naval se juega entre dos jugadores y cada uno tiene un tablero
+que el otro jugador no puede ver. Cada jugador tiene una cantidad de naves
+definida y puede colocarlas donde quiera. Para simplificar el juego, solo
+existen naves de tamaño de 1 casillero.
+Primero se crea el tablero y luego cada jugador elige donde colocar sus barcos.
+Cuando terminan de colocar sus barcos, empiezan a jugar uno contra el otro por
+turnos.
+Aquí hay una guía de funciones que se necesitan. Al programar cada función
+debemos crear los tests para dicha función.
+============= Disclaimer ================
+Como toda actividad que haremos durante el resto de la capacitación, debemos
+crear su correspondiente carpeta, bajar composer, instalar PHPUnit y mantener
+la estructura de programación como venimos manteniendo.
+=========================================
+Nomenclatura:
+Vacío => 0
+Barco => 1
+Barco Hundido => 2
+1) Creamos la clase Battleship y que toma por constructor el tamaño del tablero
+y la cantidad de naves que cada jugador puede poner.
+$battleship = new Battleship(20,20, 10);
+Preguntas guías:
+- Como represento un tablero de 20 por 20?
+- Cuantos tableros voy a necesitar crear?
+2) mostrarTableroJugador1()
+Cada lugar vacío lo vamos a representar con un 0,
+donde hay un barco será 1 y donde hay un barco hundido será 2.
+3) mostrarTableroJugador2()
+Idem.
+3) colocarNaveJugador1(fila, columna)
+En el tablero correspondiente al jugador 1 agregar una nave en la
+posición (fila, columna)
+4) colocarNaveJugador2(fila, columna)
+Idem.
+5) disparoTurnoJugador1(fila, columna)
+Es el turno del Jugador 1 y ejecuta un disparo a la posición (fila, columna)
+del tablero correspondiente al Jugador 2.
+6) disparoTurnoJugador2(fila, columna)
+Es el turno del Jugador 2 y ejecuta un disparo a la posición (fila, columna)
+del tablero correspondiente al Jugador 1.
+Preguntas guías:
+- Si el Jugador 1 dispara y no hunde ninguna nave, el tablero se modifica?
+- Si hunde una nave, que tablero debería cambiar?
+7) ganoJugador1()
+8) ganoJugador2()
+El juego no se termina hasta que las naves del contrincante estan todas destruídas.
+Como verificamos que el Jugador 1 ganó? En que tablero deberíamos fijarnos?
+9) terminoElJuego()
+Nos dice si el juego termino. En que condiciones el juego termina?
+Opcionales:
+----------
+10) cuantosTurnosPasaron()
+Lleva la cuenta de cuantos turnos pasaron desde que empezaron a jugar. Cada disparo
+de un jugador es un turno.
+11) Verificar que no pueda disparar dos o más veces el mismo jugador.
+*/
+class Battleship {
+  
+}

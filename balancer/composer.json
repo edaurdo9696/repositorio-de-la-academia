@@ -1,0 +1,6 @@
+{
+    "name": "eduardo/balancer",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}

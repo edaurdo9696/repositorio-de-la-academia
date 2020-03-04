@@ -1,0 +1,13 @@
+{
+    "name": "eduardo/ultimo-examen",
+    "require": {
+        "phpunit/phpunit": "^8.5",
+        "mongodb/mongodb": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drone\\": "src/",
+            "TestDrone\\": "tests/"
+        }
+    }
+}

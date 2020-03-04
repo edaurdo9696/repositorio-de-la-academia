@@ -1,0 +1,9 @@
+function jugar_varios($mazo,$jugadores){
+   $mazocartas=[];
+   $i=0;
+   while (i<jugadores):
+       $cartas=jugar($mazo);
+       $mazocartas[]=$cartas
+       $i=$i+1
+   return $mazocartas
+print(jugar_varios(mazo,5))

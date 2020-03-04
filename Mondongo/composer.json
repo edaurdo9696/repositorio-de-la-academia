@@ -1,0 +1,12 @@
+{
+    "name": "eduardo/mondongo",
+    "authors": [
+        {
+            "name": "edu",
+            "email": "eduardokloster96@gmail.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.5"
+    }
+}

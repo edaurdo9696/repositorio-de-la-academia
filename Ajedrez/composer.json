@@ -1,0 +1,13 @@
+{
+    "name": "academia/eduardo",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ajedrez\\": "Ajedrez/",
+            "Interfaces\\":"Interfaces/",
+            "TestAjedrez\\": "test/"
+        }
+    }
+}

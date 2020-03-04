@@ -1,0 +1,6 @@
+{
+    "name": "eduardo/test-pre-examen",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}

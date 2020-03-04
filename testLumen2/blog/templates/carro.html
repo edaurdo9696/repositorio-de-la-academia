@@ -1,0 +1,13 @@
+<html>
+    <h1>Carrito</h1>
+    <body>
+        {% for placa in productos %}
+            {{placa.id}}
+            {{placa.marca}}
+            {{placa.modelo}}
+            {{placa.precio}}
+            <br>
+        {% endfor %}
+    </body>
+
+</html>
